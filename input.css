@@ -4,6 +4,9 @@
 
 @layer components{
     .btn-primary{
-        @apply inline-block bg-primary py-2 px-3 mt-5 text-sm md:text-lg rounded-md hover:bg-orange-500 text-gray-800;
+        @apply inline-block bg-primary py-2 px-3 mt-5 text-sm md:text-lg rounded-md hover:bg-orange-500 text-gray-800 capitalize;
+    }
+    .btn-secondry{
+        @apply inline-block bg-transparent border border-primary py-1 px-4 text-sm font-medium rounded-md hover:bg-orange-500 capitalize;
     }
 }
