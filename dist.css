@@ -637,12 +637,12 @@ video {
   max-width: 1024px;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
 .max-w-\[800px\] {
   max-width: 800px;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .flex-1 {
@@ -732,6 +732,18 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
+.bg-cta-img {
+  background-image: url(./images/mic.png);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -768,6 +780,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[80px\] {
+  font-size: 80px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -776,10 +792,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[80px\] {
-  font-size: 80px;
 }
 
 .font-bold {
@@ -844,6 +856,10 @@ video {
 
   .md\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .md\:text-\[80px\] {
+    font-size: 80px;
   }
 
   .md\:text-base {
