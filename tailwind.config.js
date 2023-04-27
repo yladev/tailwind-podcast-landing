@@ -2,6 +2,9 @@
 module.exports = {
   content: ["*.html"],
   theme: {
+    backgroundImage: {
+      'cta-img': "url(./images/mic.png)",
+    },
     extend: {
       colors: {
         primary: "#ED7F39"
